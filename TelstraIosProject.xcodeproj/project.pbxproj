@@ -17,6 +17,9 @@
 		B265FD0C23F412D200CA3F39 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD0B23F412D200CA3F39 /* DataModel.swift */; };
 		B265FD0E23F4135700CA3F39 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD0D23F4135700CA3F39 /* DataManager.swift */; };
 		B265FD1223F4149900CA3F39 /* TelstraDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD1123F4149900CA3F39 /* TelstraDownloader.swift */; };
+		B265FD1723F4155F00CA3F39 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD1423F4155F00CA3F39 /* TableViewModel.swift */; };
+		B265FD1823F4155F00CA3F39 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD1523F4155F00CA3F39 /* TableViewController.swift */; };
+		B265FD1923F4155F00CA3F39 /* TelstraExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD1623F4155F00CA3F39 /* TelstraExerciseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B265FD0B23F412D200CA3F39 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		B265FD0D23F4135700CA3F39 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		B265FD1123F4149900CA3F39 /* TelstraDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraDownloader.swift; sourceTree = "<group>"; };
+		B265FD1423F4155F00CA3F39 /* TableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		B265FD1523F4155F00CA3F39 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B265FD1623F4155F00CA3F39 /* TelstraExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelstraExerciseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,10 @@
 			children = (
 				B265FCDB23F3F1A100CA3F39 /* AppDelegate.swift */,
 				B265FCDD23F3F1A100CA3F39 /* SceneDelegate.swift */,
-				B265FD1123F4149900CA3F39 /* TelstraDownloader.swift */,
+				B265FD1A23F4159C00CA3F39 /* View Controller */,
+				B265FD1B23F415A900CA3F39 /* View Model */,
+				B265FD1C23F415B300CA3F39 /* TableView Cell */,
+				B265FD1323F4152200CA3F39 /* Download Manager */,
 				B265FD1023F413C900CA3F39 /* Model */,
 				B265FD0F23F413BF00CA3F39 /* Manager */,
 				B265FCE123F3F1A100CA3F39 /* Main.storyboard */,
@@ -148,6 +157,38 @@
 				B265FD0B23F412D200CA3F39 /* DataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B265FD1323F4152200CA3F39 /* Download Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B265FD1123F4149900CA3F39 /* TelstraDownloader.swift */,
+			);
+			path = "Download Manager";
+			sourceTree = "<group>";
+		};
+		B265FD1A23F4159C00CA3F39 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B265FD1523F4155F00CA3F39 /* TableViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		B265FD1B23F415A900CA3F39 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B265FD1423F4155F00CA3F39 /* TableViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B265FD1C23F415B300CA3F39 /* TableView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B265FD1623F4155F00CA3F39 /* TelstraExerciseCell.swift */,
+			);
+			path = "TableView Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B265FCDC23F3F1A100CA3F39 /* AppDelegate.swift in Sources */,
+				B265FD1823F4155F00CA3F39 /* TableViewController.swift in Sources */,
 				B265FD0E23F4135700CA3F39 /* DataManager.swift in Sources */,
+				B265FD1923F4155F00CA3F39 /* TelstraExerciseCell.swift in Sources */,
 				B265FCDE23F3F1A100CA3F39 /* SceneDelegate.swift in Sources */,
+				B265FD1723F4155F00CA3F39 /* TableViewModel.swift in Sources */,
 				B265FD1223F4149900CA3F39 /* TelstraDownloader.swift in Sources */,
 				B265FD0C23F412D200CA3F39 /* DataModel.swift in Sources */,
 			);
