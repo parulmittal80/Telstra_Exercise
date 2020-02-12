@@ -16,6 +16,7 @@
 		B265FCFE23F3F1A500CA3F39 /* TelstraIosProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FCFD23F3F1A500CA3F39 /* TelstraIosProjectUITests.swift */; };
 		B265FD0C23F412D200CA3F39 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD0B23F412D200CA3F39 /* DataModel.swift */; };
 		B265FD0E23F4135700CA3F39 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD0D23F4135700CA3F39 /* DataManager.swift */; };
+		B265FD1223F4149900CA3F39 /* TelstraDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265FD1123F4149900CA3F39 /* TelstraDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B265FCFF23F3F1A500CA3F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B265FD0B23F412D200CA3F39 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		B265FD0D23F4135700CA3F39 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		B265FD1123F4149900CA3F39 /* TelstraDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				B265FCDB23F3F1A100CA3F39 /* AppDelegate.swift */,
 				B265FCDD23F3F1A100CA3F39 /* SceneDelegate.swift */,
+				B265FD1123F4149900CA3F39 /* TelstraDownloader.swift */,
 				B265FD1023F413C900CA3F39 /* Model */,
 				B265FD0F23F413BF00CA3F39 /* Manager */,
 				B265FCE123F3F1A100CA3F39 /* Main.storyboard */,
@@ -281,6 +284,7 @@
 				B265FCDC23F3F1A100CA3F39 /* AppDelegate.swift in Sources */,
 				B265FD0E23F4135700CA3F39 /* DataManager.swift in Sources */,
 				B265FCDE23F3F1A100CA3F39 /* SceneDelegate.swift in Sources */,
+				B265FD1223F4149900CA3F39 /* TelstraDownloader.swift in Sources */,
 				B265FD0C23F412D200CA3F39 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
